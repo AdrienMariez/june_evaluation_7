@@ -5,42 +5,62 @@ CMS used :
 
 How to :
 Requirements :
-curl : ```sudo apt-get install curl```
-composer: ```curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer```
+curl :</br>
+```sudo apt-get install curl```
+composer:</br>
+```curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer```
 
-###In your terminal, navigate to any directory you wish to work in.
 
-1 - git clone the repository on your computer:
+
+<h3>In your terminal, navigate to any directory you wish to work in.</h3>
+
+
+
+1 - git clone the repository on your computer:</br>
 ```git@github.com:AdrienMariez/june_evaluation_7.git```
 
 
-###In your terminal, navigate to the main folder of the repository.
 
-2 - import the database :
+<h3>In your terminal, navigate to the main folder of the repository.</h3>
+
+
+
+2 - import the database :</br>
 ```drush sql:cli < database/bdd.sql```
 
-3 - install all the requirements :
+
+
+3 - install all the requirements :</br>
 ```composer install```
 
 
-###In your terminal, navigate to the /web folder.
 
-4 - import the drupal configuration :
+<h3>In your terminal, navigate to the /web folder.</h3>
+
+
+
+
+4 - import the drupal configuration :</br>
 ```drush config-import```
 
-5 - reload the cache to make sure all previous commands are taken into account :
+5 - reload the cache to make sure all previous commands are taken into account :</br>
 ```drush cr```
 
-###The structure is now ready, to take a look at the drupal site, do as following :
 
-6 - While staying in the /web folder, start a Local Host:
+
+<h3>The structure is now ready, to take a look at the drupal site, do as following :</h3>
+
+
+
+6 - While staying in the /web folder, start a Local Host:</br>
 ```php -S 0.0.0.0:8000```
 
-7 - You can now access to the site in your browser:
+7 - You can now access to the site in your browser:</br>
 [http://localhost:8000/](http://localhost:8000/)
 
-More instructions can be found in the Documentation page on the site, accessible from anywhere.
 
+
+<h3>More instructions can be found in the Documentation page on the site, accessible from anywhere.</h3>
 
 
 
