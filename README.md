@@ -5,6 +5,7 @@ CMS used :
 
 How to :
 Requirements :
+php 7.0+</br>
 curl :</br>
 ```sudo apt-get install curl```
 composer:</br>
@@ -17,7 +18,7 @@ composer:</br>
 
 
 1 - git clone the repository on your computer:</br>
-```git@github.com:AdrienMariez/june_evaluation_7.git```
+```git clone git@github.com:AdrienMariez/june_evaluation_7.git```
 
 
 
@@ -58,11 +59,19 @@ composer:</br>
 7 - You can now access to the site in your browser:</br>
 [http://localhost:8000/](http://localhost:8000/)
 
+6 & 7 alternative - You can create a real localhost on apache as php -S
+can cause trouble with drupal.
 
 
 <h3>More instructions can be found in the Documentation page on the site, accessible from anywhere.</h3>
 
-
+</br>
+</br>
+</br>
+</hr>
+</br>
+</br>
+</br>
 
 [![Build Status](https://travis-ci.org/drupal-composer/drupal-project.svg?branch=8.x)](https://travis-ci.org/drupal-composer/drupal-project)
 
