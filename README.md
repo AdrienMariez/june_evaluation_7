@@ -1,4 +1,48 @@
-# Composer template for Drupal projects
+# June Evaluation 7
+
+CMS used :
+##Drupal 8
+
+How to :
+Requirements :
+curl : ```sudo apt-get install curl```
+composer: ```curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer```
+
+###In your terminal, navigate to any directory you wish to work in.
+
+1 - git clone the repository on your computer:
+```git@github.com:AdrienMariez/june_evaluation_7.git```
+
+
+###In your terminal, navigate to the main folder of the repository.
+
+2 - import the database :
+```drush sql:cli < database/bdd.sql```
+
+3 - install all the requirements :
+```composer install```
+
+
+###In your terminal, navigate to the /web folder.
+
+4 - import the drupal configuration :
+```drush config-import```
+
+5 - reload the cache to make sure all previous commands are taken into account :
+```drush cr```
+
+###The structure is now ready, to take a look at the drupal site, do as following :
+
+6 - While staying in the /web folder, start a Local Host:
+```php -S 0.0.0.0:8000```
+
+7 - You can now access to the site in your browser:
+[http://localhost:8000/](http://localhost:8000/)
+
+More instructions can be found in the Documentation page on the site, accessible from anywhere.
+
+
+
 
 [![Build Status](https://travis-ci.org/drupal-composer/drupal-project.svg?branch=8.x)](https://travis-ci.org/drupal-composer/drupal-project)
 
@@ -142,4 +186,3 @@ To prevent this you can add this code to specify the PHP version you want to use
     "platform": {"php": "5.5.9"}
 },
 ```
-# June Evaluation 7
