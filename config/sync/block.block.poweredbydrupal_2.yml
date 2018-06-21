@@ -1,0 +1,20 @@
+uuid: 6f9fceb1-050c-4ff3-a9f7-de18db0ef3ff
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - eval
+id: poweredbydrupal_2
+theme: eval
+region: footer
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

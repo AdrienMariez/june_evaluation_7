@@ -1,0 +1,7 @@
+it_works.content:
+  path: '/simplon'
+  defaults:
+    _controller: '\Drupal\it_works_module\Controller\MessageController::content'
+    _title: 'It works !'
+  requirements:
+    _permission: 'access content'

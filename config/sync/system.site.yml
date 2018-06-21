@@ -1,0 +1,14 @@
+uuid: 2bdbc68e-c5f5-4400-8a43-78fbd7426ce2
+name: eval7
+mail: adrien.mariez@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

@@ -1,0 +1,20 @@
+uuid: ea2f897b-db50-42aa-bd14-be130b3526ae
+langcode: en
+status: true
+dependencies:
+  theme:
+    - evaluationTheme
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: evaluationTheme_local_actions
+theme: evaluationTheme
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

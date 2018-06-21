@@ -1,0 +1,8 @@
+name: It Works Module
+description: The page /simplon reads "it works".
+package: Custom
+
+type: module
+core: 8.x
+
+configure: it_works.settings

@@ -1,0 +1,14 @@
+uuid: cef58dc5-94b6-4422-a853-212b611b4f21
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - adrien.mariez@gmail.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

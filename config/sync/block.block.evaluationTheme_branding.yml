@@ -1,0 +1,25 @@
+uuid: ac2f4c79-5cf0-4249-b1af-03b75f2510ee
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - evaluationTheme
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: evaluationTheme_branding
+theme: evaluationTheme
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

@@ -1,0 +1,10 @@
+{
+  "name": "drupal/it_works_module",
+  "description": "Creates a page showing 'it works'.",
+  "type": "drupal-module",
+  "license": "GPL-2.0+",
+  "minimum-stability": "dev",
+  "require": {
+    "drupal/core": "~8"
+  }
+}
