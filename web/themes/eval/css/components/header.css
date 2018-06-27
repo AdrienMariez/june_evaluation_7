@@ -1,0 +1,19 @@
+#header {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.header .section {
+  position: relative;
+}
+.region-header {
+  padding: 0.357em 15px 0;
+}
+.region-header .site-branding {
+  margin-top: 0.429em;
+  min-height: 200px;
+}
+
+#block-mainnavigation menu{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

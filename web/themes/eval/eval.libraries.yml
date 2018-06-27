@@ -1,0 +1,13 @@
+global-styling:
+  version: 1.0
+  css:
+    base:
+      css/base/elements.css: {}
+    component:
+      css/components/primary-menu.css: {}
+      css/components/header.css: {}
+      css/components/footer.css: {}
+    layout:
+      css/layout.css: {}
+    theme:
+      css/colors.css: {}

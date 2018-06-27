@@ -1,0 +1,3 @@
+eval.settings:
+  type: theme_settings
+  label: 'eval settings'
